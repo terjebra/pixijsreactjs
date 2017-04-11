@@ -4,7 +4,7 @@
   "description": "Pixi.js and React.js",
   "main": "index.tsx",
   "scripts": {
-    "start": "webpack-dev-server --colors --hot --inline"
+    "start": "webpack-dashboard -- webpack-dev-server --colors --hot --inline"
   },
   "repository": {
     "type": "git"
