@@ -1,0 +1,51 @@
+{
+  "name": "pixijsandreactjs",
+  "version": "1.0.0",
+  "description": "Pixi.js and React.js",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "webpack-dev-server --colors --hot --inline"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "terjebra",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "@types/pixi.js": "^4.4.2",
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-redux": "^4.4.38",
+    "@types/react-router": "^4.0.4",
+    "@types/react-tap-event-plugin": "0.0.30",
+    "css-loader": "^0.23.1",
+    "ejs-loader": "^0.3.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "json-loader": "^0.5.4",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.3",
+    "webpack-dashboard": "^0.3.0",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "flexbox-grid": "^1.0.0",
+    "material-ui": "^0.17.2",
+    "pixi.js": "^4.4.4",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
+    "react-flexbox-grid": "^1.0.2",
+    "react-redux": "^5.0.2",
+    "react-router-dom": "^4.0.0",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "redux-actions": "^1.2.2"
+  }
+}
